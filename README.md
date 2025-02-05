@@ -1,1 +1,1 @@
-# lc-okta-purple
+# Purple Teaming Okta Detections with LimaCharlie
