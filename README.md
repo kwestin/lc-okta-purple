@@ -8,6 +8,8 @@ In this lab we will actually be building the lab environment we will be using Vi
 
 ### Free tools we will use:
 
+Please create your free accounts for both Okta and LimaCharlie:
+
 
 - [LimaCharlie Community Edition](https://free.limacharlie.io/)
 - [Okta Developer Account](https://developer.okta.com/signup/)
