@@ -29,5 +29,6 @@ Please create your free accounts for both Okta and LimaCharlie:
 8. For Installation Key click "Create New" and call it "OktaPurpleWorkshop"
 9. Next we will fill in information about our Okta Developer account, give it a unique name, copy the API key we created in Okta in the "APIkey" field and the URL of your Okta instance. 
 ![Copy Token](/img/lcokta1.png)
-
+10. After a few minutes the data from Okta should start flowing and you should see your new Okta sensor in your list of active sensors.
+![Copy Token](/img/lcokta2.png)
 
