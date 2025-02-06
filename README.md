@@ -8,7 +8,7 @@ In this lab we will actually be building the lab environment we will be using Vi
 
 ### Free tools we will use:
 
-Please create your free accounts for both Okta and LimaCharlie:
+Please create your free accounts for both Okta and LimaCharlie, we will walk through how to install Dorothy in lab 2:
 
 - [LimaCharlie Community Edition](https://free.limacharlie.io/)
 - [Okta Developer Account](https://developer.okta.com/signup/)
@@ -33,3 +33,4 @@ Please create your free accounts for both Okta and LimaCharlie:
 ![Copy Token](/img/lcokta2.png)
 
 ## Lab 2: Installing and Configuring Dorothy
+1. D
