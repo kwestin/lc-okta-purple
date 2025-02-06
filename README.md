@@ -38,3 +38,7 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 ```
 
 You can also install Dorothy from source, the code is availble [on Github here](https://github.com/elastic/dorothy)
+
+2. Once you have
+
+![Dorothy Setup](/img/dorothy1.png)
