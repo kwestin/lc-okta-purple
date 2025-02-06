@@ -33,4 +33,9 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 ![Copy Token](/img/lcokta2.png)
 
 ## Lab 2: Installing and Configuring Dorothy
-1. D
+
+1. Dorothy is an adversary emulation tool written in Python by security researcher David French. Dorothy is availble in PyPy so if PIP is installed on your system you can install it by simply entering: 
+
+```
+ pip install dorothy
+```
