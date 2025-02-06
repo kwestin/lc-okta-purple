@@ -40,7 +40,7 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 You can also install Dorothy from source, the code is availble [on Github here](https://github.com/elastic/dorothy)
 
 2. Once you have Dorothy installed in your Python environment you can fire it up by simply typing "dorothy" on the command line. 
-You will be prompted to enter some information. You will be asked for an API token, I suggest you create a new one in our Okta Developer Account and name it something like "EvilHackerKey" as this is the API token we will use to simulate the compromise of an access token. 
+You will be prompted to enter some information. You will be asked for an API token, I suggest you create a new one in our Okta Developer Account and name it something like "EvilHackerKey" as this is the API token we will use to simulate the compromise of an access token. You will want to cretea a new configuration profile, provide the URL of your Okta Developer Account instance, insert an API token, you will want to save it in the local config to use later, and answer "n" to indexing the logs in Elasticsearch...unless you want to log them. 
 
 ```
 [*] Do you want to load an existing configuration profile? Answer no to create a new one [Y/n]: n
@@ -50,8 +50,6 @@ You will be prompted to enter some information. You will be asked for an API tok
 [*] Enter your Okta API token to execute actions. The input for this value is hidden: 
 [*] Do you want to store the API token in the local config file? [Y/n]: y
 [*] Do you want to index Dorothy's logs in Elasticsearch? [y/N]: n
-[*] Consider executing "whoami" to get user information and roles associated with current API token
-[*] Execute "list-modules" to show all of Dorothy's modules
 ```
 
 
