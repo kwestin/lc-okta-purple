@@ -23,4 +23,4 @@ Please create your free accounts for both Okta and LimaCharlie:
 ![Okta Token Page](/img/okta2.png)
 4. Copy the new token and past it somehwere safe as backup
 ![Copy Token](/img/okta3a.png)
-
+5. 
