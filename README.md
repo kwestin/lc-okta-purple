@@ -32,3 +32,4 @@ Please create your free accounts for both Okta and LimaCharlie:
 10. After a few minutes the data from Okta should start flowing and you should see your new Okta sensor in your list of active sensors.
 ![Copy Token](/img/lcokta2.png)
 
+## Lab 2: Installing and Configuring Dorothy
