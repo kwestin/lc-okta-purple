@@ -14,6 +14,8 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 - [Okta Developer Account](https://developer.okta.com/signup/)
 - [Dorothy Okta Adversary Emulation Tool](https://github.com/elastic/dorothy)
 
+------
+
 
 1. [Sign up for a free Okta Developer](https://developer.okta.com/signup/) account if you have not done so.
 2. In your Okta Developer acccount go to Security > API and click on the "Tokens" tab
