@@ -40,7 +40,8 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 You can also install Dorothy from source, the code is availble [on Github here](https://github.com/elastic/dorothy)
 
 2. Once you have Dorothy installed in your Python environment you can fire it up by simply typing "dorothy" on the command line. 
-You will be prompted to enter some information. 
+You will be prompted to enter some information. You will be asked for an API token, I suggest you create a new one in our Okta Developer Account and name it something like "EvilHackerKey" as this is the API token we will use to simulate the compromise of an access token. 
+
 ```
 [*] Do you want to load an existing configuration profile? Answer no to create a new one [Y/n]: n
 [*] Creating a new configuration profile
