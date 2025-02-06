@@ -52,5 +52,6 @@ You will be prompted to enter some information. You will be asked for an API tok
 [*] Do you want to index Dorothy's logs in Elasticsearch? [y/N]: n
 ```
 
-
 ![Dorothy Setup](/img/dorothy1.png)
+
+Congratulations!!! You now have your Okta Purple Teaming lab setup! Now let's run some attacks! 
