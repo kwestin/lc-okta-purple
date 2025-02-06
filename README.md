@@ -10,7 +10,6 @@ In this lab we will actually be building the lab environment we will be using Vi
 
 Please create your free accounts for both Okta and LimaCharlie:
 
-
 - [LimaCharlie Community Edition](https://free.limacharlie.io/)
 - [Okta Developer Account](https://developer.okta.com/signup/)
 - [Dorothy Okta Adversary Emulation Tool](https://github.com/elastic/dorothy)
@@ -23,4 +22,12 @@ Please create your free accounts for both Okta and LimaCharlie:
 ![Okta Token Page](/img/okta2.png)
 4. Copy the new token and past it somehwere safe as backup
 ![Copy Token](/img/okta3a.png)
-5. 
+5. Log into your LimaCharlie account, if you have not created an org please creat one.
+6. Go to "Sensors" in the left hand menu and clik on the "Add Sensor" button on the right hand side of the page
+7. You will see a list of possible sensors, scroll down until you find "Okta" and click "Select"
+![Copy Token](/img/lcokta0.png)
+8. For Installation Key click "Create New" and call it "OktaPurpleWorkshop"
+9. Next we will fill in information about our Okta Developer account, give it a unique name, copy the API key we created in Okta in the "APIkey" field and the URL of your Okta instance. 
+![Copy Token](/img/lcokta1.png)
+
+
