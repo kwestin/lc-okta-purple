@@ -39,6 +39,19 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 
 You can also install Dorothy from source, the code is availble [on Github here](https://github.com/elastic/dorothy)
 
-2. Once you have
+2. Once you have Dorothy installed in your Python environment you can fire it up by simply typing "dorothy" on the command line. 
+You will be prompted to enter some information. 
+```
+[*] Do you want to load an existing configuration profile? Answer no to create a new one [Y/n]: n
+[*] Creating a new configuration profile
+[*] Enter description for target Okta environment: LCPurpleTeam
+[*] Enter URL for target Okta environment. E.g. https://my-company.okta.com: https://dev-46185139.okta.com
+[*] Enter your Okta API token to execute actions. The input for this value is hidden: 
+[*] Do you want to store the API token in the local config file? [Y/n]: y
+[*] Do you want to index Dorothy's logs in Elasticsearch? [y/N]: n
+[*] Consider executing "whoami" to get user information and roles associated with current API token
+[*] Execute "list-modules" to show all of Dorothy's modules
+```
+
 
 ![Dorothy Setup](/img/dorothy1.png)
