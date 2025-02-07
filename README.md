@@ -58,3 +58,9 @@ Congratulations!!! You now have your Okta Purple Teaming lab setup! Now let's ru
 
 
 ## Lab 3: Dorothy Attack Simulation
+
+1. Run the whoami commmand to view permissions of the API token you created, you should notice that you are Super Administrator
+```
+whoami
+```
+
