@@ -57,7 +57,7 @@ You will be prompted to enter some information. You will be asked for an API tok
 Congratulations!!! You now have your Okta Purple Teaming lab setup! Now let's run some attacks! 
 
 
-## Lab 3: Dorothy Attack Simulation
+## Lab 3: Dorothy Attack Simulation Create New Admin User
 
 1. Run the whoami commmand to view permissions of the API token you created to ensure that you have Super Administrator permissions
 ```
@@ -67,7 +67,18 @@ whoami
 ```
 list-modules
 ```
-
 ![Dorothy Setup](/img/dorothy2.png)
+
+3. Next we will create a new user, navigate to the "persistence" menu and then enter "create-user"
+4. Type the "info" command to view the fields that are required for this module. 
+5. To set the values we will use the "set" command followed by the paramters we want to set prefixed with a double dash "--"
+
+Example: 
+```
+set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login eveilhacker@gmail.com
+```
+6. Then enter the "execute" command, you will be prompted to create a password for this user (the password will need to comply with Okta's password policy otherwise you will get an error).
+
+![Dorothy Setup](/img/dorothy3.png)
 
 
