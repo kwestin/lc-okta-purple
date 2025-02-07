@@ -64,6 +64,10 @@ Congratulations!!! You now have your Okta Purple Teaming lab setup! Now let's ru
 whoami
 ```
 2. Run the "list-modules" command to review the modules available in Dorothy, notice that the modules are grouped in tactics, each of these tactics is a menu you can navigate into:
+```
+list-modules
+```
+
 ![Dorothy Setup](/img/dorothy2.png)
 
 
