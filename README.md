@@ -89,7 +89,7 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 
 ![Dorothy Setup](/img/create_admin_user1.png)
 
-9. Use the "set" command to pass the parameter " --id" followed by the ID of the user we just created:
+9. Use the "set" command to pass the parameter " --id" followed by the ID of the user we just created. When you "execute" this command you will be prompted for what permissions you wnat to set for the user. Select "9. Super_Admin" to give this user admin privileges.
 
 ![Dorothy Setup](/img/create_admin_user2.png)
 
