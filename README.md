@@ -81,4 +81,8 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 
 ![Dorothy Setup](/img/dorothy3.png)
 
+7. The simply created a new user, in order to escalate the user's privileges we will need to use "create-admin-user" in the persistance menu. However, to do so we will need to get the unique id of the user we just created. Go to the discovery menu and enter the 'get-users" command.
+
+![Dorothy Setup](/img/dorothy_get_users.png)
+
 
