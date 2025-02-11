@@ -93,4 +93,4 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 
 ![Dorothy Setup](/img/create_admin_user2.png)
 
-
+## Lab 3: From Logs to Detection in LimaCharlie 
