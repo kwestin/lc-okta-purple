@@ -86,9 +86,11 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 ![Dorothy Setup](/img/dorothy_get_users.png)
 
 8. Go the the "persistence -> create-admin-user" and enter the info command to see the required paraemters for this user: 
+
 ![Dorothy Setup](/img/create_admin_user1.png)
 
-9. Use the "set" command to pass the parameter " --id" followed by the ID of the user we just created. 
+9. Use the "set" command to pass the parameter " --id" followed by the ID of the user we just created:
+
 ![Dorothy Setup](/img/create_admin_user2.png)
 
 
