@@ -94,3 +94,12 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 ![Dorothy Setup](/img/create_admin_user2.png)
 
 ## Lab 3: From Logs to Detection in LimaCharlie 
+
+Note: There is some latency between Okta events happening and when the logs are sent, especially with the free Developer Accounts. Keep in mind it may take a few minutes before events show up in the logs. 
+
+1. Go to your LimaCharlie account and go to "Sensors List" and click on the Okta sensor we created and then go to the "Timeline" page for the sensor. 
+
+![Dorothy Setup](/img/okta_sensor_timeline.png)
+
+
+
