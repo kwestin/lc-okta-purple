@@ -101,5 +101,6 @@ Note: There is some latency between Okta events happening and when the logs are 
 
 ![Dorothy Setup](/img/okta_sensor_timeline.png)
 
+Spend a few minutes exploring the log events that we created using Dorothy. 
 
 
