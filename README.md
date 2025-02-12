@@ -129,3 +129,5 @@ Response
 You can test the event to ensure the syntax is correct and should also get a positive result. 
 
 ![Dorothy Setup](/img/okta_token_3.png)
+
+Congratulations you just wrote your first Okta detection in LimaCharlie! Go ahead and click "Create" to save your detection. Feel free to create a new API token in you Okta Developer instance to test it. 
