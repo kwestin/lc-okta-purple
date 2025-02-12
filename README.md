@@ -201,11 +201,12 @@ Response
 
 
 ``` 
-
-
 </details> 
 
 
 
+## Lab 6: More Detections
+
+Now create detections for other events such as privilege escalation, disabling of MFA etc. Experiment! 
 
 
