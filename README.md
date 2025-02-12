@@ -128,7 +128,7 @@ path: routing/hostname
 Response
 ``` yaml
 - action: report
-  name: Okta API Key Created for {{.routing.hostname}} {{.event.actor.alternateID}}
+  name: Okta API Key Created for {{ .routing.hostname }} {{ .event.actor.alternateID }}
 ```
 
 You can test the event to ensure the syntax is correct and should also get a positive result. 
@@ -164,7 +164,7 @@ Response
 ``` yaml
 
 - action: report
-  name: Unauthorized Okta Admin Access Page on {{.routing.hostname}} by {{.event.actor.alternateID}}
+  name: Unauthorized Okta Admin Access Page on {{ .routing.hostname }} by {{ .event.actor.alternateID }}
 ```
 </details>
 
@@ -202,7 +202,7 @@ Response
 ``` yaml
 
 - action: report
-  name: New User Created {{.event.target.alternateID}} {{.routing.hostname}} {{.event.actor.alternateID}}
+  name: New User Created {{ .event.target.alternateID }} {{ .routing.hostname }} {{ .event.actor.alternateID }}
 
 
 ``` 
@@ -232,7 +232,7 @@ Response
 ``` yaml
 
 - action: report
-  name: Okta MFA Deactivated for {{.event.target.alternateID}} on {{.routing.hostname}} by {{.event.actor.alternateID}}
+  name: Okta MFA Deactivated for {{ .event.target.alternateID }} on {{ .routing.hostname }} by {{ .event.actor.alternateID }}
 
 ``` 
 </details> 
