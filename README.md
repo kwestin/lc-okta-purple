@@ -166,7 +166,7 @@ Response
 
 ## Lab 5: Detect New User Creation
 
-If you have not run Dorothy to create a new user and escalate their privileges do so now. Looking at your Okta sensor Timeline, find the event where a user was created. 
+If you have not run Dorothy to create a new user and escalate their privileges do so now. Looking at your Okta sensor Timeline, find the event where a user was created. Create a rule that detects when a new user is created and send the email of the new user, who created the user and what Okta host in the response. 
 
 <details>
 <summary>Hint 1 </summary>
@@ -174,6 +174,38 @@ If you have not run Dorothy to create a new user and escalate their privileges d
 Look for the ```  user.lifecycle.create ``` event
 
 </details> 
+<details>
+<summary>Hint 2 </summary>
+
+Look for the user created in the "target" parameter
+
+</details> 
+
+<details>
+<summary>Answer </summary>
+
+Detection
+``` yaml
+
+event: user.lifecycle.create
+op: exists
+path: routing/hostname
+
+``` 
+
+Response
+``` yaml
+
+- action: report
+  name: New User Created {{.event.target.alternateID}} {{.routing.hostname}} {{.event.actor.alternateID}}
+
+
+``` 
+
+
+</details> 
+
+
 
 
 
