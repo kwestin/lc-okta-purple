@@ -9,6 +9,9 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 - [LimaCharlie Community Edition](https://free.limacharlie.io/)
 - [Okta Developer Account](https://developer.okta.com/signup/)
 - [Dorothy Okta Adversary Emulation Tool](https://github.com/elastic/dorothy)
+- [LimaCharlie Detection & Response](https://github.com/elastic/dorothy)
+
+
 
 ## Lab 1: Building the Okta Dev Lab
 
