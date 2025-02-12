@@ -131,3 +131,32 @@ You can test the event to ensure the syntax is correct and should also get a pos
 ![Dorothy Setup](/img/okta_token_3.png)
 
 Congratulations you just wrote your first Okta detection in LimaCharlie! Go ahead and click "Create" to save your detection. Feel free to create a new API token in you Okta Developer instance to test it. 
+
+## Lab 4: Okta Admin Login Detection
+
+Looking at the timeline we can see a lot of interesting events, one that occurs is the ```user.session.access_admin_app``` event if the user who logs in is an adminstrator, they get redirected to the admin page and this particular log event is generated. Let's create a rule that detects if someone other than ourselves logs in as administrator. 
+
+Detection
+
+``` yaml
+
+event: user.session.access_admin_app
+op: and
+rules:
+  - not: true
+    op: is
+    path: event/actor/alternateId
+    value: ken@cybersecurity.io
+  - op: exists
+    path: routing/hostname
+```
+
+Response
+
+``` yaml
+
+- action: report
+  name: >-
+    Unauthorized Okta Admin Access Page on {{.routing.hostname}} by
+    {{.event.actor.alternateID}}
+```
