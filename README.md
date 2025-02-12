@@ -210,3 +210,25 @@ Response
 Now create detections for other events such as privilege escalation, disabling of MFA etc. Experiment! 
 
 
+
+<details>
+<summary>MFA Disabled</summary>
+
+Detection
+``` yaml
+
+event: user.mfa.factor.deactivate
+op: exists
+path: routing/hostname
+
+``` 
+
+Response
+``` yaml
+
+- action: report
+  name: Okta MFA Deactivated for {{.event.target.alternateID}} on {{.routing.hostname}} by {{.event.actor.alternateID}}
+
+``` 
+</details> 
+
