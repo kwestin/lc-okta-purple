@@ -136,6 +136,9 @@ Congratulations you just wrote your first Okta detection in LimaCharlie! Go ahea
 
 Looking at the timeline we can see a lot of interesting events, one that occurs is the ```user.session.access_admin_app``` event if the user who logs in is an adminstrator, they get redirected to the admin page and this particular log event is generated. Let's create a rule that detects if someone other than ourselves logs in as administrator. 
 
+<details>
+<summary>Click to view answer</summary>
+
 Detection
 
 ``` yaml
@@ -160,3 +163,4 @@ Response
     Unauthorized Okta Admin Access Page on {{.routing.hostname}} by
     {{.event.actor.alternateID}}
 ```
+</details>
