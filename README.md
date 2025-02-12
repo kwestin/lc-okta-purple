@@ -162,3 +162,18 @@ Response
   name: Unauthorized Okta Admin Access Page on {{.routing.hostname}} by {{.event.actor.alternateID}}
 ```
 </details>
+
+
+## Lab 5: Detect New User Creation
+
+If you have not run Dorothy to create a new user and escalate their privileges do so now. Looking at your Okta sensor Timeline, find the event where a user was created. 
+
+<details>
+<summary>Hint 1 </summary>
+
+Look for the ``` yaml user.lifecycle.create ``` event
+
+</details> 
+
+
+
