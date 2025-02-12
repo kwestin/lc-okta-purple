@@ -107,5 +107,9 @@ Spend a few minutes exploring the log events that we created using Dorothy.
 
 ![Dorothy Setup](/img/okta_token_1.png)
 
+You should now see a test event along with detection logic pre-built for you. 
+
+![Dorothy Setup](/img/okta_token_2.png)
+
 
 
