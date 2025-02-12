@@ -126,3 +126,6 @@ Response
   name: Okta API Key Created for {{.routing.hostname}} {{.event.actor.alternateID}}
 ```
 
+You can test the event to ensure the syntax is correct and should also get a positive result. 
+
+![Dorothy Setup](/img/okta_token_3.png)
