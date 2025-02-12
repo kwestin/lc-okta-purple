@@ -9,7 +9,7 @@ Please create your free accounts for both Okta and LimaCharlie, we will walk thr
 - [LimaCharlie Community Edition](https://free.limacharlie.io/)
 - [Okta Developer Account](https://developer.okta.com/signup/)
 - [Dorothy Okta Adversary Emulation Tool](https://github.com/elastic/dorothy)
-- [LimaCharlie Detection & Response](https://github.com/elastic/dorothy)
+- [LimaCharlie Detection & Response Documentation](https://github.com/elastic/dorothy)
 
 
 
@@ -97,6 +97,8 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 ![Dorothy Setup](/img/create_admin_user2.png)
 
 ## Lab 3: From Logs to Detection in LimaCharlie 
+
+- [LimaCharlie Detection & Response Documentation](https://github.com/elastic/dorothy)
 
 Note: There is some latency between Okta events happening and when the logs are sent, especially with the free Developer Accounts. Keep in mind it may take a few minutes before events show up in the logs. 
 
