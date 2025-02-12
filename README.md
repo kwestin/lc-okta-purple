@@ -103,4 +103,9 @@ Note: There is some latency between Okta events happening and when the logs are 
 
 Spend a few minutes exploring the log events that we created using Dorothy. 
 
+2. In the sensor "Timeline" you should see the token you created for Dorothy (if not create another one in your Okta Developer instance). Click on the event to see the log data and then click the icon to create a detection rule.
+
+![Dorothy Setup](/img/okta_token_1.png)
+
+
 
