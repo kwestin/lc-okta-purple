@@ -171,7 +171,7 @@ If you have not run Dorothy to create a new user and escalate their privileges d
 <details>
 <summary>Hint 1 </summary>
 
-Look for the ``` yaml user.lifecycle.create ``` event
+Look for the ```  user.lifecycle.create ``` event
 
 </details> 
 
