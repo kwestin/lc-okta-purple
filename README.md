@@ -111,5 +111,18 @@ You should now see a test event along with detection logic pre-built for you.
 
 ![Dorothy Setup](/img/okta_token_2.png)
 
+Override the pre-built rule with this code, this will work as a pass through detection, which will trigger the alert in LimaCharlie if the event simply occurs. 
 
+Detection
+``` yaml
+event: system.api_token.create
+op: exists
+path: routing/hostname
+```
+
+Response
+``` yaml
+- action: report
+  name: Okta API Key Created for {{.routing.hostname}} {{.event.actor.alternateID}}
+```
 
