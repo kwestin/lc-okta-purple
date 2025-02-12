@@ -159,8 +159,6 @@ Response
 ``` yaml
 
 - action: report
-  name: >-
-    Unauthorized Okta Admin Access Page on {{.routing.hostname}} by
-    {{.event.actor.alternateID}}
+  name: Unauthorized Okta Admin Access Page on {{.routing.hostname}} by {{.event.actor.alternateID}}
 ```
 </details>
