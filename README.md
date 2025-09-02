@@ -96,7 +96,7 @@ set --first-name Evil --last-name Hacker --email evilhacker@gmail.com --login ev
 
 ![Dorothy Setup](/img/create_admin_user2.png)
 
-## Lab 3: From Logs to Detection in LimaCharlie 
+## Lab 4: From Logs to Detection in LimaCharlie 
 
 - [LimaCharlie Detection & Response Documentation](https://github.com/elastic/dorothy)
 
@@ -137,7 +137,7 @@ You can test the event to ensure the syntax is correct and should also get a pos
 
 Congratulations you just wrote your first Okta detection in LimaCharlie! Go ahead and click "Create" to save your detection. Feel free to create a new API token in you Okta Developer instance to test it. 
 
-## Lab 4: Okta Admin Login Detection
+## Lab 5: Okta Admin Login Detection
 
 Looking at the timeline we can see a lot of interesting events, one that occurs is the ```user.session.access_admin_app``` event if the user who logs in is an adminstrator, they get redirected to the admin page and this particular log event is generated. Let's create a rule that detects if someone other than ourselves logs in as administrator. 
 
@@ -169,7 +169,7 @@ Response
 </details>
 
 
-## Lab 5: Detect New User Creation
+## Lab 6: Detect New User Creation
 
 If you have not run Dorothy to create a new user and escalate their privileges do so now. Looking at your Okta sensor Timeline, find the event where a user was created. Create a rule that detects when a new user is created and send the email of the new user, who created the user and what Okta host in the response. 
 
@@ -210,7 +210,7 @@ Response
 
 
 
-## Lab 6: More Detections
+## Lab 7: More Detections
 
 Now create detections for other events such as privilege escalation, disabling of MFA etc. Experiment! 
 
